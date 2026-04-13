@@ -97,7 +97,7 @@ jobs:
         python -m src.cli watch --rss --report --top 100
     
     - name: Upload Pages artifact
-      uses: actions/upload-pages-artifact@v5
+      uses: actions/upload-pages-artifact@v4
       with:
         path: reports/
     
